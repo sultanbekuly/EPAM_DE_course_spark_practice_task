@@ -1,0 +1,12 @@
+# pycharm
+.idea/
+
+# data files
+raw/
+*.csv
+*.parquet
+
+# output dirtory
+df_enriched_*/
+
+config.ini
