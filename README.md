@@ -31,7 +31,7 @@ python main.py
 ## Testing
 Tests are written using Python's `unittest` framework. To run the tests, execute the `test.py` script:
 ```bash
-python test.py
+python tests.py
 ```
 
 ## Structure
@@ -43,7 +43,7 @@ python test.py
 
 ## Screenshots
 ### Main file execution outputs
-Used some prints (abc-z) for ease of understanding codes execution.
+Used some prints (abc-z) for ease of understanding codes execution stage.
 
 ![Alt text](images/image.png)
 ![Alt text](images/image-1.png)
@@ -60,7 +60,7 @@ Used some prints (abc-z) for ease of understanding codes execution.
 ![Alt text](images/image-10.png)
 ![Alt text](images/image-11.png)
 
-### Tests exution output
+### Tests execution output
 ![Alt text](images/image-12.png)
 
 ## Author
