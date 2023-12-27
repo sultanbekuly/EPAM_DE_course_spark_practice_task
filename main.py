@@ -6,7 +6,7 @@ import geohash2
 from geopy.geocoders import OpenCage
 import logging
 from datetime import datetime
-
+import configparser
 
 # Function to generate a four-character geohash
 def generate_geohash(lat, lng):
@@ -44,7 +44,9 @@ def main():
     df_restaurant.show()
     print("a")
 
-    api_key = "cc8c85c4c6e44995b8af857fcd054d52"
+    config = configparser.ConfigParser()
+    config.read('config.ini')
+    api_key = config['DEFAULT']['OpenCageApiKey']
 
     # Define the schema for the UDF's return type
     return_schema = StructType([
